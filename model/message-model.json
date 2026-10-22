@@ -1,0 +1,42 @@
+{
+  "bias": -0.858979481573216,
+  "weights": {
+    "return": 0.795,
+    "percent": 0.499,
+    "multiplier": 0.058,
+    "guarantee": 0.446,
+    "easy": 0.355,
+    "denial": 0.703,
+    "invest_call": 1.61,
+    "scarcity": 0.014,
+    "urgency": 0.496,
+    "referral": 0.639,
+    "levels": 0.272,
+    "personal_transfer": 0.272,
+    "kaspi": 0,
+    "testimonial": 1.389,
+    "complaint": -0.443,
+    "emoji": 0.321,
+    "warning": -0.875,
+    "licensed": -0.719,
+    "income_claim": 0.421,
+    "gift_circle": 0.202,
+    "doubt": -0.628,
+    "free_reward": -1.262,
+    "legit_payout": -0.85,
+    "question": -0.768,
+    "reported": -1.078,
+    "promise_any": 1.816,
+    "pressure_any": 0.323,
+    "referral_any": 0.961,
+    "payment_any": 0.147,
+    "promise_x_payment": 0.401,
+    "promise_x_referral": 0.215,
+    "promise_x_pressure": 0.281,
+    "referral_x_payment": 0.009
+  },
+  "thresholds": {
+    "medium": 0.49,
+    "high": 0.57
+  }
+}

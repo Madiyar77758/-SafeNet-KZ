@@ -1,0 +1,86 @@
+{
+  "dataset": {
+    "total": 200,
+    "positives": 90,
+    "negatives": 110
+  },
+  "thresholds": {
+    "medium": 0.49,
+    "high": 0.57
+  },
+  "ours": {
+    "tp": 90,
+    "fp": 0,
+    "fn": 0,
+    "tn": 110,
+    "precision": 1,
+    "recall": 1,
+    "f1": 1,
+    "fpr": 0
+  },
+  "baseline": {
+    "tp": 58,
+    "fp": 63,
+    "fn": 32,
+    "tn": 47,
+    "precision": 0.479,
+    "recall": 0.644,
+    "f1": 0.55,
+    "fpr": 0.573
+  },
+  "byLang": {
+    "translit": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "tn": 16,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "fpr": 0
+    },
+    "ru": {
+      "tp": 36,
+      "fp": 0,
+      "fn": 0,
+      "tn": 44,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "fpr": 0
+    },
+    "mix": {
+      "tp": 18,
+      "fp": 0,
+      "fn": 0,
+      "tn": 22,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "fpr": 0
+    },
+    "kk": {
+      "tp": 22,
+      "fp": 0,
+      "fn": 0,
+      "tn": 28,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "fpr": 0
+    }
+  },
+  "levels": {
+    "0": {
+      "high": 0,
+      "medium": 0,
+      "low": 110
+    },
+    "1": {
+      "high": 87,
+      "medium": 3,
+      "low": 0
+    }
+  },
+  "errors": []
+}

@@ -1,0 +1,22 @@
+{
+  "bias": -3.284002599809337,
+  "weights": {
+    "max_prob": 0.963,
+    "top3_mean": 0.763,
+    "high_count": 1.231,
+    "promo_share": 0.853,
+    "template_share": 0.374,
+    "reviewers": 1.028,
+    "complaints": 0.348,
+    "requisites": 0.257,
+    "organizer": 1.475,
+    "curators": 0.816,
+    "collapse": 0.547,
+    "warning_share": -0.198,
+    "licensed_share": -0.099
+  },
+  "thresholds": {
+    "medium": 0.5,
+    "high": 0.75
+  }
+}

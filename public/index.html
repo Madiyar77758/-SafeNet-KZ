@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SafeNet KZ — Стоп-пирамида</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="top-inner">
+    <div class="logo">
+      <svg width="34" height="34" viewBox="0 0 36 36" aria-hidden="true"><path d="M18 2 4 7v9c0 9 6 15 14 18 8-3 14-9 14-18V7L18 2Z" fill="var(--accent)"/><path d="m11 18 5 5 9-10" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div>
+        <div class="logo-name">SafeNet KZ <span class="pill">Стоп-пирамида</span></div>
+        <div class="logo-sub">Признаки финансовых пирамид в WhatsApp и Telegram · русский, казахский, транслит</div>
+      </div>
+    </div>
+    <label class="btn primary upload" for="file">
+      <svg width="16" height="16" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 13V3m0 0L6 7m4-4 4 4M3 13v3a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span class="label-long">Загрузить чат или скриншот</span><span class="label-short">Загрузить</span>
+    </label>
+    <input id="file" type="file" accept=".txt,.json,.png,.jpg,.jpeg,.webp" hidden>
+  </div>
+</header>
+
+<main>
+  <div class="principle">
+    <svg width="18" height="18" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="8.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10 9v5M10 6.2v.1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    <div>Система не объявляет схему незаконной — она показывает <b>признаки</b> возможного нарушения и объясняет, почему контент помечен. Решение принимает специалист.</div>
+  </div>
+
+  <section class="strip" id="stats"></section>
+
+  <nav class="tabs" role="tablist">
+    <button data-tab="queue" class="active">Очередь</button>
+    <button data-tab="graph">Сеть связей</button>
+    <button data-tab="check">Проверить текст</button>
+    <button data-tab="metrics">Точность</button>
+    <button data-tab="method">Как это работает</button>
+  </nav>
+
+  <section id="tab-queue" class="tab-section queue">
+    <div class="case-list" id="case-list"></div>
+    <div id="case-detail"><div class="card empty">Выберите группу слева</div></div>
+  </section>
+
+  <section id="tab-graph" class="tab-section hidden">
+    <div class="graph-wrap">
+      <div class="card graph-card">
+        <div class="card-head">
+          <h3>Связи между группами</h3>
+          <div class="legend">
+            <span><i class="dot" style="background:var(--high)"></i>высокий риск</span>
+            <span><i class="dot" style="background:var(--medium)"></i>средний</span>
+            <span><i class="dot" style="background:var(--low)"></i>низкий</span>
+            <span><i class="sq" style="background:#12325b"></i>реквизит</span>
+            <span><i class="sq" style="background:#7a5ec7"></i>одинаковая рассылка</span>
+            <span><i class="sq" style="background:var(--accent)"></i>ссылка или аккаунт</span>
+          </div>
+        </div>
+        <svg id="graph-svg"></svg>
+        <div class="hint">Нажмите на группу, чтобы открыть её карточку</div>
+      </div>
+      <div id="networks"></div>
+    </div>
+  </section>
+
+  <section id="tab-check" class="tab-section hidden">
+    <div class="check">
+      <div class="card">
+        <h3 class="section-title">Проверить сообщение</h3>
+        <p class="muted">Вставьте сообщение на русском, казахском или транслитом — или целый экспорт чата WhatsApp.</p>
+        <textarea id="check-text" placeholder="Например: 5 мың салсаң, 3 күнде 15 мың аласың!"></textarea>
+        <div class="examples-title">Примеры</div>
+        <div class="examples" id="examples"></div>
+        <button class="btn primary wide" id="check-btn">Проверить</button>
+      </div>
+      <div id="check-result"><div class="card empty">Результат появится здесь</div></div>
+    </div>
+  </section>
+
+  <section id="tab-metrics" class="tab-section hidden"></section>
+  <section id="tab-method" class="tab-section hidden"></section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

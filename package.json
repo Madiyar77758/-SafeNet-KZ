@@ -1,0 +1,24 @@
+{
+  "name": "safenet-kz",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SafeNet KZ — выявление признаков финансовых пирамид в WhatsApp и Telegram (трек «Стоп-пирамида»)",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/server.ts",
+    "test": "node --test --disable-warning=ExperimentalWarning test/*.test.ts",
+    "train": "node --disable-warning=ExperimentalWarning scripts/train.ts",
+    "eval": "node --disable-warning=ExperimentalWarning scripts/eval.ts",
+    "typecheck": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "5.9"
+  },
+  "dependencies": {
+    "tesseract.js": "^7.0.0"
+  }
+}

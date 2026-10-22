@@ -1,0 +1,18 @@
+{
+  "frozenAt": "2026-10-22T18:47:03.740Z",
+  "note": "Модель и правила заморожены до прогона слепых наборов data/test (сообщения v3 и чаты)",
+  "files": {
+    "model/message-model.json": "ae8836bbcbb80156",
+    "model/chat-model.json": "a92f1f595fd5ecf0",
+    "src/chat.ts": "fd87a8e01920546f",
+    "src/graph.ts": "d30388c93c26ef28",
+    "src/highlight.ts": "f691e01735fc9f78",
+    "src/message-model.ts": "a7946f3ba72916b3",
+    "src/model.ts": "f865e550586fd648",
+    "src/normalize.ts": "9e37d52f0cd383e4",
+    "src/ocr.ts": "72fd6c1ad61ea36a",
+    "src/parse.ts": "e1a363d3397f1fdd",
+    "src/server.ts": "cb5a6f88a651d58b",
+    "src/signals.ts": "b23568808cd22213"
+  }
+}

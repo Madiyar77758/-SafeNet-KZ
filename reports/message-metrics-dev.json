@@ -1,0 +1,84 @@
+{
+  "dataset": {
+    "total": 294,
+    "positives": 137,
+    "negatives": 157
+  },
+  "thresholds": {
+    "medium": 0.49,
+    "high": 0.57
+  },
+  "ours": {
+    "tp": 136,
+    "fp": 0,
+    "fn": 1,
+    "tn": 157,
+    "precision": 1,
+    "recall": 0.993,
+    "f1": 0.996,
+    "fpr": 0
+  },
+  "baseline": {
+    "tp": 98,
+    "fp": 65,
+    "fn": 39,
+    "tn": 92,
+    "precision": 0.601,
+    "recall": 0.715,
+    "f1": 0.653,
+    "fpr": 0.414
+  },
+  "byLang": {
+    "ru": {
+      "tp": 107,
+      "fp": 0,
+      "fn": 1,
+      "tn": 142,
+      "precision": 1,
+      "recall": 0.991,
+      "f1": 0.995,
+      "fpr": 0
+    },
+    "kk": {
+      "tp": 21,
+      "fp": 0,
+      "fn": 0,
+      "tn": 15,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "fpr": 0
+    },
+    "translit": {
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "tn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "fpr": 0
+    }
+  },
+  "levels": {
+    "0": {
+      "high": 0,
+      "medium": 0,
+      "low": 157
+    },
+    "1": {
+      "high": 128,
+      "medium": 8,
+      "low": 1
+    }
+  },
+  "errors": [
+    {
+      "text": "Сегодня закрываем набор, кто не успел — ждёт месяц. Пишите @kurator_aigerim",
+      "label": 1,
+      "probability": 0.448,
+      "level": "low",
+      "kind": "push"
+    }
+  ]
+}

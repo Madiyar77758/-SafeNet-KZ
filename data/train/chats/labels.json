@@ -1,0 +1,362 @@
+{
+  "pyramid_01.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_02.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_03.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_04.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_05.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_06.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_07.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_08.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_09.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_10.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_11.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_12.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_13.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_14.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_15.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_16.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_17.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_18.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_19.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_20.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_21.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_22.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_23.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_24.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_25.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_26.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_27.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_28.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_29.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_30.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_31.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_32.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_33.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_34.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_35.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_36.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_37.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_38.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_39.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_40.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_41.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_42.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_43.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_44.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "pyramid_45.json": {
+    "label": 1,
+    "theme": "pyramid"
+  },
+  "legit_01.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_02.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_03.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_04.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_05.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_06.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_07.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_08.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_09.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_10.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_11.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_12.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_13.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_14.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_15.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_16.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_17.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_18.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_19.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_20.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_21.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_22.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_23.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_24.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_25.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_26.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_27.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_28.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_29.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_30.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_31.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_32.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_33.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_34.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_35.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_36.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_37.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_38.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_39.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_40.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_41.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_42.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_43.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_44.json": {
+    "label": 0,
+    "theme": "legit"
+  },
+  "legit_45.json": {
+    "label": 0,
+    "theme": "legit"
+  }
+}

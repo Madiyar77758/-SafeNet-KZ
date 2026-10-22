@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "total": 130,
+    "positives": 60,
+    "negatives": 70
+  },
+  "thresholds": {
+    "medium": 0.52,
+    "high": 0.62
+  },
+  "ours": {
+    "tp": 32,
+    "fp": 2,
+    "fn": 28,
+    "tn": 68,
+    "precision": 0.941,
+    "recall": 0.533,
+    "f1": 0.681,
+    "fpr": 0.029
+  },
+  "baseline": {
+    "tp": 41,
+    "fp": 27,
+    "fn": 19,
+    "tn": 43,
+    "precision": 0.603,
+    "recall": 0.683,
+    "f1": 0.641,
+    "fpr": 0.386
+  },
+  "byLang": {
+    "ru": {
+      "tp": 22,
+      "fp": 2,
+      "fn": 24,
+      "tn": 63,
+      "precision": 0.917,
+      "recall": 0.478,
+      "f1": 0.629,
+      "fpr": 0.031
+    },
+    "kk": {
+      "tp": 6,
+      "fp": 0,
+      "fn": 4,
+      "tn": 5,
+      "precision": 1,
+      "recall": 0.6,
+      "f1": 0.75,
+      "fpr": 0
+    },
+    "translit": {
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "tn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "fpr": 0
+    }
+  },
+  "levels": {
+    "0": {
+      "high": 0,
+      "medium": 2,
+      "low": 68
+    },
+    "1": {
+      "high": 22,
+      "medium": 10,
+      "low": 28
+    }
+  },
+  "errors": [
+    {
+      "text": "Сделай из 20к — 100к за 2 недели! Схема рабочая, я уже третий круг",
+      "label": 1,
+      "probability": 0.215,
+      "level": "low",
+      "kind": "offer"
+    },
+    {
+      "text": "Удваиваем вклад за 5 дней. Оплата: Kaspi Gold 4400 4302 3344 5566 (Жанар К.)",
+      "label": 1,
+      "probability": 0.389,
+      "level": "low",
+      "kind": "offer"
+    },
+    {
+      "text": "Кто зайдёт до вечера — получит бонус +30% к сумме. Вход от 5 000",
+      "label": 1,
+      "probability": 0.293,
+      "level": "low",
+      "kind": "push"
+    },
+    {
+      "text": "Подключайся к нашей команде: с каждого приведённого участника тебе 20%",
+      "label": 1,
+      "probability": 0.215,
+      "level": "low",
+      "kind": "referral"
+    },
+    {
+      "text": "Досыңды тіркеп, оның салымынан 15% ал! Командамен бірге табыс",
+      "label": 1,
+      "probability": 0.215,
+      "level": "low",
+      "kind": "referral"
+    },
+    {
+      "text": "Уже 3 раз вывожу, деньги приходят день в день 💸",
+      "label": 1,
+      "probability": 0.215,
+      "level": "low",
+      "kind": "testimonial"
+    },
+    {
+      "text": "Последние 2 места на сегодня! Кто готов — плюс в комментарии",
+      "label": 1,
+      "probability": 0.215,
+      "level": "low",
+      "kind": "push"
+    },
+    {
+      "text": "Мест почти нет, завтра поток закрываем. Успевайте!",
+      "label": 1,
+      "probability": 0.215,
+      "level": "low",
+      "kind": "push"
+    },
+    {
+      "text": "Орындар саны шектеулі, бүгін кешке дейін жазылыңыз!",
+      "label": 1,
+      "probability": 0.215,
+      "level": "low",
+      "kind": "push"
+    },
+    {
+      "text": "Мы работаем легально, все выплаты прозрачны. Вкладывай от 3 000",
+      "label": 1,
+      "probability": 0.293,
+      "level": "low",
+      "kind": "denial_offer"
+    },
+    {
+      "text": "Кешбэк 200% на ваш вклад через 10 дней, перевод на каспи по номеру +7 708 333 44 55",
+      "label": 1,
+      "probability": 0.49,
+      "level": "low",
+      "kind": "offer"
+    },
+    {
+      "text": "Вкидываешь 5к в кассу, через неделю тебе прилетает 25к от новых участников",
+      "label": 1,
+      "probability": 0.215,
+      "level": "low",
+      "kind": "offer"
+    },
+    {
+      "text": "Ставка 15к — выигрыш 45к гарантирован! Пиши в директ",
+      "label": 1,
+      "probability": 0.372,
+      "level": "low",
+      "kind": "offer"
+    },
+    {
+      "text": "Зарабатываю 25 000 в день, вложив один раз. Кто со мной?",
+      "label": 1,
+      "probability": 0.468,
+      "level": "low",
+      "kind": "offer"
+    },
+    {
+      "text": "Мамочки в декрете, пассивный доход от 150к в месяц! Нужно только вложиться",
+      "label": 1,
+      "probability": 0.329,
+      "level": "low",
+      "kind": "offer"
+    },
+    {
+      "text": "В_л_о_ж_и 5 0 0 0 → п_о_л_у_ч_и 1 5 0 0 0",
+      "label": 1,
+      "probability": 0.215,
+      "level": "low",
+      "kind": "offer"
+    },
+    {
+      "text": "Твой первый вклад окупится за 3 дня, дальше чистая прибыль",
+      "label": 1,
+      "probability": 0.215,
+      "level": "low",
+      "kind": "offer"
+    },
+    {
+      "text": "Инвестиционный пул: от 10 000 тг, 30% прибыли каждую неделю",
+      "label": 1,
+      "probability": 0.293,
+      "level": "low",
+      "kind": "offer"
+    },
+    {
+      "text": "Майнинг-проект: купи место за 20 000, получай 2 000 ежедневно",
+      "label": 1,
+      "probability": 0.215,
+      "level": "low",
+      "kind": "offer"
+    },
+    {
+      "text": "Гарантируем возврат вложений в двойном размере через 14 дней",
+      "label": 1,
+      "probability": 0.252,
+      "level": "low",
+      "kind": "offer"
+    },
+    {
+      "text": "Кто приведёт 2 человек — вход бесплатно, плюс 10% с их вкладов",
+      "label": 1,
+      "probability": 0.335,
+      "level": "low",
+      "kind": "referral"
+    },
+    {
+      "text": "Тапсырма орындап, күніне 15 мың табыңыз! Тіркелу 5 мың, Каспиге аудар",
+      "label": 1,
+      "probability": 0.333,
+      "level": "low",
+      "kind": "offer"
+    },
+    {
+      "text": "Задания в приложении: оплачиваешь VIP за 10 000 — зарабатываешь 3 000 в день",
+      "label": 1,
+      "probability": 0.492,
+      "level": "low",
+      "kind": "offer"
+    },
+    {
+      "text": "Акция только 24 часа: вклад ×4 через неделю, места ограничены",
+      "label": 1,
+      "probability": 0.513,
+      "level": "low",
+      "kind": "offer"
+    },
+    {
+      "text": "Ваша прибыль — 1000 ₸ за каждые вложенные 1000 ₸ в неделю!",
+      "label": 1,
+      "probability": 0.293,
+      "level": "low",
+      "kind": "offer"
+    },
+    {
+      "text": "Деньги приходят каждые 3 дня, проверено на себе 💯 пиши кто хочет так же",
+      "label": 1,
+      "probability": 0.492,
+      "level": "low",
+      "kind": "testimonial"
+    },
+    {
+      "text": "Займ не нужен! Вложи 5к в наш проект и закрой кредиты за месяц",
+      "label": 1,
+      "probability": 0.293,
+      "level": "low",
+      "kind": "offer"
+    },
+    {
+      "text": "Каспиге 5 мың жіберіп, 15 мың қайтарып аласыз, бүгін ғана!",
+      "label": 1,
+      "probability": 0.441,
+      "level": "low",
+      "kind": "offer"
+    },
+    {
+      "text": "Пригласите соседа на субботник в 10:00 😊",
+      "label": 0,
+      "probability": 0.603,
+      "level": "medium",
+      "kind": "smalltalk"
+    },
+    {
+      "text": "Спасибо организаторам свадьбы, всё прошло отлично!",
+      "label": 0,
+      "probability": 0.536,
+      "level": "medium",
+      "kind": "smalltalk"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "frozenAt": "2026-10-22T19:03:06.532Z",
+  "note": "Модель и правила заморожены до прогона слепых наборов data/test (сообщения v4 и чаты); файлы data/test на момент заморозки: chats",
+  "files": {
+    "model/message-model.json": "f0d1a6a36be40e42",
+    "model/chat-model.json": "76ce5e32fa80bc2e",
+    "src/chat.ts": "fd87a8e01920546f",
+    "src/graph.ts": "d30388c93c26ef28",
+    "src/highlight.ts": "f691e01735fc9f78",
+    "src/message-model.ts": "a7946f3ba72916b3",
+    "src/model.ts": "f865e550586fd648",
+    "src/normalize.ts": "6936e1b3229b8955",
+    "src/ocr.ts": "72fd6c1ad61ea36a",
+    "src/parse.ts": "e1a363d3397f1fdd",
+    "src/server.ts": "3c0e4c5fbeb9817a",
+    "src/signals.ts": "1f471db85526baff"
+  }
+}

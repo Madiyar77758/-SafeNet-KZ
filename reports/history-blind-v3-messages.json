@@ -1,0 +1,290 @@
+{
+  "dataset": {
+    "total": 200,
+    "positives": 90,
+    "negatives": 110
+  },
+  "thresholds": {
+    "medium": 0.49,
+    "high": 0.57
+  },
+  "ours": {
+    "tp": 71,
+    "fp": 10,
+    "fn": 19,
+    "tn": 100,
+    "precision": 0.877,
+    "recall": 0.789,
+    "f1": 0.83,
+    "fpr": 0.091
+  },
+  "baseline": {
+    "tp": 57,
+    "fp": 63,
+    "fn": 33,
+    "tn": 47,
+    "precision": 0.475,
+    "recall": 0.633,
+    "f1": 0.543,
+    "fpr": 0.573
+  },
+  "byLang": {
+    "translit": {
+      "tp": 10,
+      "fp": 1,
+      "fn": 4,
+      "tn": 15,
+      "precision": 0.909,
+      "recall": 0.714,
+      "f1": 0.8,
+      "fpr": 0.063
+    },
+    "ru": {
+      "tp": 27,
+      "fp": 4,
+      "fn": 9,
+      "tn": 40,
+      "precision": 0.871,
+      "recall": 0.75,
+      "f1": 0.806,
+      "fpr": 0.091
+    },
+    "mix": {
+      "tp": 15,
+      "fp": 3,
+      "fn": 3,
+      "tn": 19,
+      "precision": 0.833,
+      "recall": 0.833,
+      "f1": 0.833,
+      "fpr": 0.136
+    },
+    "kk": {
+      "tp": 19,
+      "fp": 2,
+      "fn": 3,
+      "tn": 26,
+      "precision": 0.905,
+      "recall": 0.864,
+      "f1": 0.884,
+      "fpr": 0.071
+    }
+  },
+  "levels": {
+    "0": {
+      "high": 9,
+      "medium": 1,
+      "low": 100
+    },
+    "1": {
+      "high": 68,
+      "medium": 3,
+      "low": 19
+    }
+  },
+  "errors": [
+    {
+      "text": "Пригласи друга открыть Kaspi Gold — вам обоим по 1 000 бонусов. Кто ещё не открыл, кидаю свою ссылку в лс",
+      "label": 0,
+      "probability": 0.651,
+      "level": "high",
+      "kind": "legit_referral"
+    },
+    {
+      "text": "Сразу говорю — это НЕ пирамида и не МММ! Легальная компания, есть сертификаты. Вкладываешь от 50 000, получаешь 20% ежемесячно. Вопросы в личку",
+      "label": 1,
+      "probability": 0.319,
+      "level": "low",
+      "kind": "denial_offer"
+    },
+    {
+      "text": "Национальный Банк РК: каждый гражданин может получать дивиденды от продажи нефти. Внесите стартовый взнос 40 000 ₸ и получайте 30% ежемесячно. Заявка — по ссылке в описании",
+      "label": 1,
+      "probability": 0.379,
+      "level": "low",
+      "kind": "fake_platform"
+    },
+    {
+      "text": "Bul aida jobadan 500 myn tabys taptym, bir ret salym salyp otyrmyn. Kim qyzyghady, jazyndar",
+      "label": 1,
+      "probability": 0.484,
+      "level": "low",
+      "kind": "income_brag"
+    },
+    {
+      "text": "Үйден жұмыс! Видео көріп, лайк басу арқылы күніне 15 мыңға дейін. Тек бастапқы пакет 10 мың тұрады, қалғаны түгел өзіңізге",
+      "label": 1,
+      "probability": 0.296,
+      "level": "low",
+      "kind": "task_scam"
+    },
+    {
+      "text": "Набираю студентов на оценку отелей и отзывы. Пакет «Старт» — 15 000, «Золото» — 50 000, на золоте задания приносят до 12 000 в день",
+      "label": 1,
+      "probability": 0.296,
+      "level": "low",
+      "kind": "task_scam"
+    },
+    {
+      "text": "Девочки, первый раз сомневалась, бірақ қазір 4-ші выплата, әр жолы 40 мың! Касса реально работает, кто хочет вступить — пишите",
+      "label": 1,
+      "probability": 0.296,
+      "level": "low",
+      "kind": "testimonial"
+    },
+    {
+      "text": "Выкуп жұмысы бар! Тауарды өз ақшаңа аласың, через 24 часа сумма + 25% қайтады. Кто хочет, пишите в лс",
+      "label": 1,
+      "probability": 0.296,
+      "level": "low",
+      "kind": "task_scam"
+    },
+    {
+      "text": "Инв3стиции в крипт0-б0та, пр0фит 40% в м3сяц, старт с 15 000 ₸. Подробн0сти по ссылке t.me/XXXXXXXX",
+      "label": 1,
+      "probability": 0.296,
+      "level": "low",
+      "kind": "offer"
+    },
+    {
+      "text": "АФМ предупреждает: объявления о «государственной инвестплатформе КазМунайГаза» с доходом 600 000 ₸ в месяц — мошенничество. Национальные компании не принимают вклады от граждан",
+      "label": 0,
+      "probability": 0.653,
+      "level": "high",
+      "kind": "warning"
+    },
+    {
+      "text": "Девочки, подработка на телефоне: лайк басасың, отзыв жазасың — за задание 400 тг. Только сначала VIP пакет алу керек, 12 мың, за 3 дня окупается",
+      "label": 1,
+      "probability": 0.484,
+      "level": "low",
+      "kind": "task_scam"
+    },
+    {
+      "text": "Выкуп товаров с кешбэком 30%! Покупаете товар по нашей ссылке своими деньгами, через сутки возвращаем сумму + 30% сверху. Чем больше заказов, тем больше заработок",
+      "label": 1,
+      "probability": 0.296,
+      "level": "low",
+      "kind": "task_scam"
+    },
+    {
+      "text": "Апам хочет вступить, говорит ақшасы через месяц екі есе қайтады. Как объяснить, что это опасно? Тыңдамайды мені",
+      "label": 0,
+      "probability": 0.733,
+      "level": "high",
+      "kind": "doubt"
+    },
+    {
+      "text": "Кыздар, АСП кімге түсті? Мне в этом месяце 38 мың пришло, бұрын көбірек еді",
+      "label": 0,
+      "probability": 0.561,
+      "level": "medium",
+      "kind": "payout_talk"
+    },
+    {
+      "text": "Түркістан облысында «өзара көмек кассасын» ұйымдастырған әйелге қатысты үкім шықты. Ол 5 жылға бас бостандығынан айырылды",
+      "label": 0,
+      "probability": 0.912,
+      "level": "high",
+      "kind": "news"
+    },
+    {
+      "text": "Новая гос.программа «Народные дивиденды» 🇰🇿 от 100 тыс. → 1,5 млн в месяц. Одобрено Правительством РК. Подробнее: bit.ly/XXXXXX",
+      "label": 1,
+      "probability": 0.296,
+      "level": "low",
+      "kind": "fake_platform"
+    },
+    {
+      "text": "Купила маме холодильник, себе айфон — всё с дохода от одного вложения в 200к 😍 Кому интересно как я это сделала — пишите",
+      "label": 1,
+      "probability": 0.484,
+      "level": "low",
+      "kind": "income_brag"
+    },
+    {
+      "text": "Lyudi ne vedites na 'vlozhi 5k poluchi 15k', eto piramida. U menya sestra tak 100 tysyach poteryala",
+      "label": 0,
+      "probability": 0.843,
+      "level": "high",
+      "kind": "warning"
+    },
+    {
+      "text": "Открыл автомойку год назад, вложил 12 млн. Окупаемость выходит месяцев 20, так что кто думает открывать — считайте аренду и зиму, зимой клиентов вдвое меньше",
+      "label": 0,
+      "probability": 0.86,
+      "level": "high",
+      "kind": "business_income"
+    },
+    {
+      "text": "Darenie krug ashyldy! 10 000 tg salasyn, 8 adam jinalganda 80 000 alasyn. Kezekke jazylyndar",
+      "label": 1,
+      "probability": 0.296,
+      "level": "low",
+      "kind": "gift_circle"
+    },
+    {
+      "text": "Первый лям за 3 месяца без работы 🥂 Вложилась один раз и сижу получаю. Кто готов менять жизнь — ссылка в профиле",
+      "label": 1,
+      "probability": 0.484,
+      "level": "low",
+      "kind": "income_brag"
+    },
+    {
+      "text": "Rabota s telefona: ocenivaesh tovary, za kazhduyu ocenku 300 tg. Nuzhno tolko oplatit dostup 5000 tg, otbivaetsya za den",
+      "label": 1,
+      "probability": 0.296,
+      "level": "low",
+      "kind": "task_scam"
+    },
+    {
+      "text": "10к → 25к за неделю. Пиши в лс",
+      "label": 1,
+      "probability": 0.296,
+      "level": "low",
+      "kind": "offer"
+    },
+    {
+      "text": "Кыздар, абайлаңдар! Мне тоже писали «вложи 20 мың, через неделю 50 мың» деп. Бұл развод, точно говорю, ақшаңнан айырыласың",
+      "label": 0,
+      "probability": 0.928,
+      "level": "high",
+      "kind": "warning"
+    },
+    {
+      "text": "Осы айда жобадан 380 мың таза табыс таптым, жұмысқа бармай-ақ! Бір рет салым салдым, ақша өзі түсіп жатыр. Кім қызығады, жазыңыз",
+      "label": 1,
+      "probability": 0.295,
+      "level": "low",
+      "kind": "income_brag"
+    },
+    {
+      "text": "Қаржылық мониторинг агенттігі «мұнай компаниясының инвестициялық платформасы» деп жарнамаланған сайттарды бұғаттады. Олар 90 мың салып, айына 600 мың табыс табуға шақырған",
+      "label": 0,
+      "probability": 0.955,
+      "level": "high",
+      "kind": "news"
+    },
+    {
+      "text": "Oficialnaya platforma QazaqGaz dlya grazhdan RK: investiruy 100 000 tg i poluchay ot 800 000 tg v mesyac. Registraciya po ssylke v bio",
+      "label": 1,
+      "probability": 0.296,
+      "level": "low",
+      "kind": "fake_platform"
+    },
+    {
+      "text": "Қыздар, ұяшықта орын бар! Жарна 25 мың, 8 адам жиналғанда бірінші тұрған 200 мың алады. Кезекпен бәріміз аламыз",
+      "label": 1,
+      "probability": 0.296,
+      "level": "low",
+      "kind": "gift_circle"
+    },
+    {
+      "text": "В Шымкенте осуждён организатор финансовой пирамиды, обещавший вкладчикам 40% в месяц. Ущерб превысил 1,2 млрд тенге, пострадали более 900 человек. Суд назначил 8 лет лишения свободы",
+      "label": 0,
+      "probability": 0.799,
+      "level": "high",
+      "kind": "news"
+    }
+  ]
+}
