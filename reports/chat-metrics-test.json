@@ -1,0 +1,260 @@
+{
+  "set": "test",
+  "total": 12,
+  "positives": 6,
+  "negatives": 6,
+  "thresholds": {
+    "medium": 0.5,
+    "high": 0.75
+  },
+  "tp": 6,
+  "fp": 1,
+  "fn": 0,
+  "tn": 5,
+  "precision": 0.857,
+  "recall": 1,
+  "f1": 0.923,
+  "fpr": 0.167,
+  "baseline": {
+    "tp": 6,
+    "fp": 6,
+    "fn": 0,
+    "tn": 0,
+    "precision": 0.5,
+    "recall": 1,
+    "f1": 0.667,
+    "fpr": 1
+  },
+  "byLang": {
+    "ru+kk": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "tn": 1,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "fpr": 0
+    },
+    "ru": {
+      "tp": 3,
+      "fp": 1,
+      "fn": 0,
+      "tn": 3,
+      "precision": 0.75,
+      "recall": 1,
+      "f1": 0.857,
+      "fpr": 0.25
+    },
+    "kk": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "tn": 1,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "fpr": 0
+    },
+    "translit": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "tn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "fpr": 0
+    }
+  },
+  "byFormat": {
+    "whatsapp_android": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "tn": 2,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "fpr": 0
+    },
+    "telegram_json": {
+      "tp": 2,
+      "fp": 1,
+      "fn": 0,
+      "tn": 1,
+      "precision": 0.667,
+      "recall": 1,
+      "f1": 0.8,
+      "fpr": 0.5
+    },
+    "whatsapp_iphone": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "tn": 2,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "fpr": 0
+    }
+  },
+  "chats": [
+    {
+      "file": "chat_01.txt",
+      "label": 0,
+      "kind": "parents_kaspi",
+      "lang": "ru+kk",
+      "format": "whatsapp_android",
+      "messages": 28,
+      "flaggedMessages": 0,
+      "probability": 0.074,
+      "level": "low",
+      "summary": "Признаков финансовой пирамиды не обнаружено.",
+      "correct": true
+    },
+    {
+      "file": "chat_02.json",
+      "label": 1,
+      "kind": "invest_club_daily",
+      "lang": "ru",
+      "format": "telegram_json",
+      "messages": 32,
+      "flaggedMessages": 9,
+      "probability": 0.936,
+      "level": "high",
+      "summary": "Обнаружены признаки финансовой пирамиды: высокий процент за короткий срок, доход за приглашённых, многоуровневая структура, отзыв о выплате («прогрев»). Организатор — Altyn Capital | Менеджер Дана, кураторов: 1, реквизитов: 1. Требуется проверка специалистом.",
+      "correct": true
+    },
+    {
+      "file": "chat_03.txt",
+      "label": 1,
+      "kind": "classic_return",
+      "lang": "ru",
+      "format": "whatsapp_android",
+      "messages": 27,
+      "flaggedMessages": 7,
+      "probability": 0.904,
+      "level": "high",
+      "summary": "Обнаружены признаки финансовой пирамиды: нереалистичная доходность, высокий процент за короткий срок, доход за приглашённых, отзыв о выплате («прогрев»). Организатор — Куратор Амина 💎, кураторов: 1, реквизитов: 2. Требуется проверка специалистом.",
+      "correct": true
+    },
+    {
+      "file": "chat_04.txt",
+      "label": 0,
+      "kind": "rideshare",
+      "lang": "ru",
+      "format": "whatsapp_android",
+      "messages": 25,
+      "flaggedMessages": 0,
+      "probability": 0.094,
+      "level": "low",
+      "summary": "Признаков финансовой пирамиды не обнаружено.",
+      "correct": true
+    },
+    {
+      "file": "chat_05.json",
+      "label": 0,
+      "kind": "shop_promo",
+      "lang": "ru",
+      "format": "telegram_json",
+      "messages": 27,
+      "flaggedMessages": 0,
+      "probability": 0.065,
+      "level": "low",
+      "summary": "Признаков финансовой пирамиды не обнаружено.",
+      "correct": true
+    },
+    {
+      "file": "chat_06.txt",
+      "label": 1,
+      "kind": "fake_gov_platform",
+      "lang": "ru+kk",
+      "format": "whatsapp_iphone",
+      "messages": 26,
+      "flaggedMessages": 4,
+      "probability": 0.77,
+      "level": "high",
+      "summary": "Обнаружены признаки финансовой пирамиды: нереалистичная доходность, доход за приглашённых, искусственный дефицит, гарантия дохода без риска. Организатор — QazInvest | Менеджер Әсел, кураторов: 1, реквизитов: 2. Требуется проверка специалистом.",
+      "correct": true
+    },
+    {
+      "file": "chat_07.txt",
+      "label": 0,
+      "kind": "toi_collection",
+      "lang": "kk",
+      "format": "whatsapp_iphone",
+      "messages": 26,
+      "flaggedMessages": 2,
+      "probability": 0.147,
+      "level": "low",
+      "summary": "Признаков финансовой пирамиды не обнаружено.",
+      "correct": true
+    },
+    {
+      "file": "chat_08.txt",
+      "label": 1,
+      "kind": "hidden_in_chatter",
+      "lang": "ru",
+      "format": "whatsapp_android",
+      "messages": 31,
+      "flaggedMessages": 1,
+      "probability": 0.78,
+      "level": "high",
+      "summary": "Обнаружены признаки финансовой пирамиды: нереалистичная доходность, доход за приглашённых, отзыв о выплате («прогрев»). Организатор — Лейла 45 кв, реквизитов: 1. Требуется проверка специалистом.",
+      "correct": true
+    },
+    {
+      "file": "chat_09.json",
+      "label": 0,
+      "kind": "finance_discussion",
+      "lang": "ru",
+      "format": "telegram_json",
+      "messages": 29,
+      "flaggedMessages": 3,
+      "probability": 0.545,
+      "level": "medium",
+      "summary": "Обнаружены признаки финансовой пирамиды: высокий процент за короткий срок, доход за приглашённых, отзыв о выплате («прогрев»). Организатор — Дмитрий, кураторов: 1. Требуется проверка специалистом.",
+      "correct": false
+    },
+    {
+      "file": "chat_10.txt",
+      "label": 1,
+      "kind": "mutual_aid_gifting",
+      "lang": "kk",
+      "format": "whatsapp_android",
+      "messages": 27,
+      "flaggedMessages": 3,
+      "probability": 0.807,
+      "level": "high",
+      "summary": "Обнаружены признаки финансовой пирамиды: нереалистичная доходность, схема «круг / ячейка» с дарением, отзыв о выплате («прогрев»). Организатор — Мөлдір жетекші, реквизитов: 1. Требуется проверка специалистом.",
+      "correct": true
+    },
+    {
+      "file": "chat_11.txt",
+      "label": 0,
+      "kind": "legit_mlm",
+      "lang": "ru",
+      "format": "whatsapp_iphone",
+      "messages": 25,
+      "flaggedMessages": 0,
+      "probability": 0.064,
+      "level": "low",
+      "summary": "Признаков финансовой пирамиды не обнаружено.",
+      "correct": true
+    },
+    {
+      "file": "chat_12.json",
+      "label": 1,
+      "kind": "task_scam_vip",
+      "lang": "translit",
+      "format": "telegram_json",
+      "messages": 26,
+      "flaggedMessages": 5,
+      "probability": 0.906,
+      "level": "high",
+      "summary": "Обнаружены признаки финансовой пирамиды: нереалистичная доходность, отзыв о выплате («прогрев»), искусственный дефицит. Организатор — Mentor Kamila, кураторов: 1, реквизитов: 1. Требуется проверка специалистом.",
+      "correct": true
+    }
+  ]
+}

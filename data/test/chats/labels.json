@@ -1,0 +1,14 @@
+{
+  "chat_01.txt": {"label": 0, "kind": "parents_kaspi", "lang": "ru+kk", "format": "whatsapp_android"},
+  "chat_02.json": {"label": 1, "kind": "invest_club_daily", "lang": "ru", "format": "telegram_json"},
+  "chat_03.txt": {"label": 1, "kind": "classic_return", "lang": "ru", "format": "whatsapp_android"},
+  "chat_04.txt": {"label": 0, "kind": "rideshare", "lang": "ru", "format": "whatsapp_android"},
+  "chat_05.json": {"label": 0, "kind": "shop_promo", "lang": "ru", "format": "telegram_json"},
+  "chat_06.txt": {"label": 1, "kind": "fake_gov_platform", "lang": "ru+kk", "format": "whatsapp_iphone"},
+  "chat_07.txt": {"label": 0, "kind": "toi_collection", "lang": "kk", "format": "whatsapp_iphone"},
+  "chat_08.txt": {"label": 1, "kind": "hidden_in_chatter", "lang": "ru", "format": "whatsapp_android"},
+  "chat_09.json": {"label": 0, "kind": "finance_discussion", "lang": "ru", "format": "telegram_json"},
+  "chat_10.txt": {"label": 1, "kind": "mutual_aid_gifting", "lang": "kk", "format": "whatsapp_android"},
+  "chat_11.txt": {"label": 0, "kind": "legit_mlm", "lang": "ru", "format": "whatsapp_iphone"},
+  "chat_12.json": {"label": 1, "kind": "task_scam_vip", "lang": "translit", "format": "telegram_json"}
+}
