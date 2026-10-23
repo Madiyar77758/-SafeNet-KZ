@@ -4,7 +4,7 @@
 
 Автор: Элмуратов Мадияр. Хакатон SafeNet KZ, трек «Стоп-пирамида».
 
-- Презентация: https://claude.ai/artifact/QH4x6Kmav5gzfPZSmUaLcj
+- Презентация: [docs/SafeNet-KZ-presentation.pdf](docs/SafeNet-KZ-presentation.pdf)
 - Методика и метрики: [docs/METHODOLOGY.md](docs/METHODOLOGY.md) · План внедрения: [docs/PLAN.md](docs/PLAN.md) · Сценарий питча: [docs/PITCH.md](docs/PITCH.md)
 
 **Итог на слепом наборе** (200 сообщений, модель заморожена до прогона): точность 87,2%, полнота 91,1%, F1 89,1%, ложные срабатывания 10,9%. У поиска по ключевым словам — 50,9%, 63,3%, 56,4% и 50,0%.
